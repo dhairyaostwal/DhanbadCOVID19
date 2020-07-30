@@ -112,8 +112,15 @@
     vertical-align: 0%;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 @media only screen and (max-width: 600px){
     .sdo-table{
        overflow-x: hidden !important; 
+    }
+    .col-sm-5{
+        margin-top: 3rem;
     }
 }
